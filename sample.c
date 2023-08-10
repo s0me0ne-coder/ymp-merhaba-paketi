@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main() {
+int main(void)
+{
 	/* biraz şov yapayım dedim :D */
-	char mektup[] = "Hepinize merhaba arkadaslar";
-	printf("%s\n",mektup);
-	return 0;
+	char mektup[] = "Hepinize merhaba arkadaşlar";
+	puts(mektup);
 }
